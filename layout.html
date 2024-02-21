@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senai</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <style>
+         html {
+            overflow-x: hidden;
+         }
+        .n{
+            background-color: #005CA5;
+            padding-top: 0;
+        }
+        .c{
+            border: none;
+        }
+        .f{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            color: #ffff;
+        }
+        .f1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+        }
+        .i{
+            margin-left: 100px;
+        }
+        .img{
+            object-fit: cover;
+        }
+        .d{
+            background-color: #05559F;
+            margin-block-start: -200px;
+            padding-top: 500px;
+            width: auto;
+        }
+        .s{
+            text-align: right;
+        }
+        .back{
+            background-color: #60B9BC;
+            background-image: url(https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/banner_CTA_SENAI_1920x310px-1.png);
+            background-position: center right;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
+        .back2{
+            color: white;
+            background-color: #50B0D8;
+            padding-block-start: 55px;
+            min-height: 254px;
+        }
+        .back3{
+            background-color: #50B0D8;
+            margin-block-end: 150px;
+            padding-block-start: 72px;
+        }
+        .bgd{
+            margin-block-start: -114px;
+        }
+        .b{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            background-color: #ffff;
+            color: #05559F;
+            border: 0;
+            border-radius: 50px;
+        }
+        .b2{
+            background-color: #50B0D8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            border-radius: 50px;
+            border: 0;
+        }
+        .b3{
+            background-color: #05559F;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            border-radius: 50px;
+            border: 0;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .b4{
+            background-color: #ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            font-size: 17px;
+            border: 1px solid black;
+            border-radius: 50px;
+        }
+        .borda{
+            margin-top: 50px;
+            border-radius: 30px;
+        }
+        .info{
+            align-items: center;
+        }
+        .footer{
+            background-color: #005CA9;
+            color: white;
+        }
+        .link{
+            text-decoration: underline; 
+            color: white; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-size: 15px;
+        }
+        @media screen and (max-width: 600px) {
+            .i{
+                margin-left: 10px;
+            }
+            .back{
+                background-color: #60B9BC;
+                background-image: none;
+            }
+            .borda{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary n">
+        <div class="container-fluid n py-3">
+            <img src="assets/img/logo.png" alt="logo" class="i" width="150px" height="75px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                    <li class="nav-item dropdown px-3">
+                        <a class="nav-link dropdown-toggle f" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        CURSOS PROFISSIONALIZANTES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Aperfeiçoamento Profissional – SENAI</a></li>
+                            <li><a class="dropdown-item" href="#">Bibliotecas SESI SENAI</a></li>
+                            <li><a class="dropdown-item" href="#">Como estudar no SENAI</a></li>
+                            <li><a class="dropdown-item" href="#">Desenvolvedor Web</a></li>
+                            <li><a class="dropdown-item" href="#">Cursos Técnicos SENAI</a></li>
+                            <li><a class="dropdown-item" href="#">Especialização Técnica de Nível Médio – SENAI</a></li>
+                            <li><a class="dropdown-item" href="#">Qualificação Profissional Básica</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link f" href="#">APRENDIZAGEM INDUSTRIAL</a>
+                    </li> 
+                    <li class="nav-item dropdown px-3">
+                        <a class="nav-link dropdown-toggle f" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        INOVAÇÃO E TECNOLOGIA
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Centro de Treinamento e Desenvolvimento da Indústria 4.0</a></li>
+                            <li><a class="dropdown-item" href="#">Laboratório Aberto</a></li>
+                            <li><a class="dropdown-item" href="#">Ciclo de Inovação On-line</a></li>
+                            <li><a class="dropdown-item" href="#">Consultoria em Tecnologia</a></li>
+                            <li><a class="dropdown-item" href="#">Metrologia</a></li>
+                            <li><a class="dropdown-item" href="#">Laboratório de Ensaios e Análises em Materiais – LAMAT</a></li>
+                            <li><a class="dropdown-item" href="#">Laboratório SENAI de Ensaios em Polímeros</a></li>
+                            <li><a class="dropdown-item" href="#">Soluções em Energia e Eficiência Energética</a></li>
+                            <li><a class="dropdown-item" href="#">Laboratório de Ensaios Mecânicos e Análise de Agregado Siderúrgico</a></li>
+                            <li><a class="dropdown-item" href="#">Pesquisa, Desenvolvimento e Inovação de Produtos e Processos</a></li>
+                            <li><a class="dropdown-item" href="#">Serviços Técnicos Especializados</a></li>
+                            <li><a class="dropdown-item" href="#">Sistema Elétrico de Potência</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-3" style="margin-right: 100px;">
+                        <a class="nav-link dropdown-toggle f" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PROJETO SENAI
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Programa de Educação Profissional</a></li>
+                            <li><a class="dropdown-item" href="#">Capacitação de mão de obra e educação para o mercado de trabalho</a></li>
+                            <li><a class="dropdown-item" href="#">Inovação em Projeção de Revestimentos Cimentícios</a></li>
+                            <li><a class="dropdown-item" href="#">Capacitação de mão de obra e educação para o mercado de trabalho</a></li>
+                            <li><a class="dropdown-item" href="#">Programa de Ações Inclusivas</a></li>
+                            <li><a class="dropdown-item" href="#">Programa Vivência</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Search-->
+    <div class="input-group mb-3" style="padding-left: 200px; padding-right: 200px;">
+        <input type="text" class="form-control" placeholder="Digite o que você procura" aria-label="Digite o que você procura" aria-describedby="button-addon2">
+        <button style="background-color: #004C9B; color: white;" class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+    </div>
+    <!--Caroussel-->
+    <div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/recriar.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/cur2.jpg" class="d-block w-100 img" height="310px" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!--Desafios-->
+    <div class="container py-5">
+        <h2 style="color:#3C60A7">Para cada desafio, uma oportunidade do SENAI.</h2>
+        <p class="f1">Capacitamos os futuros destaques da indústria e impulsionamos os negócios de Minas com as principais tecnologias e tendências.</p>
+    </div>
+    <!--Atuação-->
+    <div class="container py-5">
+        <h3 style="color:#3C60A7">Conheça nossa atuação:</h3>
+        <div class="row justify-content-center">
+            <div class="card c text-center col-xl-4 col-sm-12 mx-5" style="width: 18rem; background-color: #50B0D8;">
+                <img src="assets/img/livro.svg" class="card-img-top my-2" alt="..." width="100px" height="100px">
+                <div class="card-body">
+                    <h4 style="color:#3C60A7; padding-left: 50px; padding-right: 50px;" class="card-title my-3">Educação</h4>
+                    <p class="card-text my-5 f1" style="color: white;">Somos referência em formação para quem quer começar, evoluir ou se especializar na indústria.</p>
+                    <a href="#" class="btn btn-primary my-2">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="card c text-center col-xl-4 col-sm-12 mx-5" style="width: 18rem; background-color: #50B0D8;">
+                <img src="assets/img/seta.svg" class="card-img-top my-2" alt="..." width="100px" height="100px">
+                <div class="card-body">
+                    <h4 style="color:#3C60A7;" class="card-title my-3">Desenvolvimento Industrial</h4>
+                    <p class="card-text my-5 f1" style="color: white;">Promovemos o desenvolvimento sustentável e a competitividade da indústria mineira.</p>
+                    <a href="#" class="btn btn-primary my-2">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="card c text-center col-xl-4 col-sm-12 mx-5" style="width: 18rem; background-color: #50B0D8;">
+                <img src="assets/img/lamp.svg" class="card-img-top my-2" alt="..." width="100px" height="100px">
+                <div class="card-body">
+                    <h4 style="color:#3C60A7;" class="card-title my-3">Tecnologia e inovação</h4>
+                    <p class="card-text my-5 f1" style="color: white;">Aceleramos o desenvolvimento tecnológico para evoluir os processos, a gestão e os lucros da sua empresa.</p>
+                    <a href="#" class="btn btn-primary my-2">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Soluções-->
+    <div class="d s row">
+        <div class="col">   
+            <h1 style="color:white">Soluções para<br>pessoas e negócios</h1>
+        </div>
+        <div class="col">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img src="assets/img/energia.svg" class="d-block w-100" alt="..." width="100%" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/regua.svg" class="d-block w-100" alt="..." width="100%" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/gente.svg" class="d-block w-100" alt="..." width="100%" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/tf.svg" class="d-block w-100" alt="..." width="100%" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/red.svg" class="d-block w-100" alt="..." width="100%" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/blue.svg" class="d-block w-100" alt="..." width="100%" height="400px">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Inovação-->
+    <div class="container-fluid back py-5">
+        <div class="container">
+            <h2 style="color: white;">Se é inovação, tecnologia e capacitação que<br>muda carreiras e empresas, é SENAI.</h2>
+            <button type="button" class="btn btn-primary btn-lg b p-3 px-5 my-4"><b>Com o SENAI, você faz o futuro</b></button>
+        </div>
+    </div>
+    <!--Destaques-->
+    <div class="py-5">
+        <div class="container">
+            <h2 style="color: #3C60A7;">Destaques</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-sm-12">
+                    <img class="borda mx-auto" width="544" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_senai_544x200px.jpg" class="attachment-full size-full wp-image-2015 entered lazyloaded" alt="" data-lazy-srcset="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_senai_544x200px.jpg 544w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_senai_544x200px-300x110.jpg 300w" data-lazy-sizes="(max-width: 544px) 100vw, 544px" data-lazy-src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_senai_544x200px.jpg" data-ll-status="loaded" sizes="(max-width: 544px) 100vw, 544px" srcset="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_senai_544x200px.jpg 544w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_senai_544x200px-300x110.jpg 300w">
+                </div>
+                <div class="col-xl-6 col-sm-12">
+                    <img class="borda" width="544" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_una_senai_544x200px.jpg" class="attachment-full size-full wp-image-2016 entered lazyloaded" alt="" data-lazy-srcset="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_una_senai_544x200px.jpg 544w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_una_senai_544x200px-300x110.jpg 300w" data-lazy-sizes="(max-width: 544px) 100vw, 544px" data-lazy-src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_una_senai_544x200px.jpg" data-ll-status="loaded" sizes="(max-width: 544px) 100vw, 544px" srcset="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_una_senai_544x200px.jpg 544w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/destaque_una_senai_544x200px-300x110.jpg 300w">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Notícias-->
+    <div>
+        <div class="back2">
+            <div class="container">
+                <h2>Notícias</h2>
+            </div>
+        </div>
+        <div class="container bgd">
+            <div class="row">
+                <div class="col-xl-3 col-sm-12">
+                    <a href="https://www.fiemg.com.br/senai/noticias/fiemg-e-gerdau-lancam-pedra-fundamental-de-unidade-integrada-do-sesi-senai-em-ouro-branco/" tabindex="-1">
+                        <img style="border-radius: 10px;" width="300" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/sesi-senai-300-anos-ouro-branco.jpg" class="attachment-large size-large wp-image-2430 entered lazyloaded" alt="FIEMG e Gerdau lançam pedra fundamental de unidade integrada do SESI/SENAI em Ouro Branco" data-lazy-src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/sesi-senai-300-anos-ouro-branco.jpg" data-ll-status="loaded"><noscript><img width="300" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/sesi-senai-300-anos-ouro-branco.jpg" class="attachment-large size-large wp-image-2430" alt="FIEMG e Gerdau lançam pedra fundamental de unidade integrada do SESI/SENAI em Ouro Branco" /></noscript>
+                    </a>
+                    <p class="my-2" style="color: #0047B6;">16/02/2024</p>
+                    <h5 style="color: #0047B6;">FIEMG e Gerdau lançam pedra fundamental de unidade integrada do SESI/SENAI em Ouro Branco</h5>
+                </div>
+                <div class="col-xl-3 col-sm-12">
+                    <a href="https://www.fiemg.com.br/senai/noticias/imersao-industria-2024-conexao-conhecimento-e-oportunidades-de-negocio/" tabindex="-1">
+                        <img style="border-radius: 10px;" width="300" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/thumb_imersao-1.jpeg" class="attachment-large size-large wp-image-2426 entered lazyloaded" alt="Imersão Indústria 2024: conexão, conhecimento e oportunidades de negócio" data-lazy-src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/thumb_imersao-1.jpeg" data-ll-status="loaded"><noscript><img width="300" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/thumb_imersao-1.jpeg" class="attachment-large size-large wp-image-2426" alt="Imersão Indústria 2024: conexão, conhecimento e oportunidades de negócio" /></noscript>
+                    </a>
+                    <p class="my-2" style="color: #0047B6;">06/02/2024</p>
+                    <h5 style="color: #0047B6;">Imersão Indústria 2024: conexão, conhecimento e oportunidades de negócio</h5>
+                </div>
+                <div class="col-xl-3 col-sm-12">
+                    <a href="https://www.fiemg.com.br/senai/noticias/600-estudantes-apresentam-projetos-de-robotica-em-festival/" tabindex="-1">
+                        <img style="border-radius: 10px;" width="300" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/festiva-sesi-educacao-robotica-sabado.jpg" class="attachment-large size-large wp-image-2424 entered lazyloaded" alt="600 estudantes apresentam projetos de robótica em festival" data-lazy-src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/festiva-sesi-educacao-robotica-sabado.jpg" data-ll-status="loaded"><noscript><img width="300" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/02/festiva-sesi-educacao-robotica-sabado.jpg" class="attachment-large size-large wp-image-2424" alt="600 estudantes apresentam projetos de robótica em festival" /></noscript>
+                    </a>
+                    <p class="my-2" style="color: #0047B6;">04/02/2024</p>
+                    <h5 style="color: #0047B6;">600 estudantes apresentam projetos de robótica em festival</h5>
+                </div>
+                <div class="col-xl-3 col-sm-12">
+                    <a href="https://www.fiemg.com.br/senai/noticias/senai-abre-mais-de-5-mil-vagas-para-cursos-tecnicos-em-minas/" tabindex="-1">
+                        <img style="border-radius: 10px;" width="300" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/01/senai-curso-tecnico.jpg" class="attachment-large size-large wp-image-2417 entered lazyloaded" alt="" data-lazy-src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/01/senai-curso-tecnico.jpg" data-ll-status="loaded"><noscript><img width="250" height="200" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2024/01/senai-curso-tecnico.jpg" class="attachment-large size-large wp-image-2417" alt="" /></noscript>
+                    </a>
+                    <p class="my-2" style="color: #0047B6;">24/01/2024</p>
+                    <h5 style="color: #0047B6;">SENAI abre mais de 5 mil vagas para cursos técnicos em Minas</h5>
+                </div>
+            </div>
+            <div class="text-center py-5">
+                <button type="button" class="btn btn-primary btn-lg b2 py-3" style="padding-left: 200px; padding-right: 200px;"><b>Mais Notícias</b></button>
+            </div>
+        </div>
+    </div>
+    <!--Sobre-->
+    <div class="back3">
+        <div style="align-items: center;" class="row text-center">
+            <div class="col-xl-6 col-sm-12" style="margin: 0px 0px -93px 0px;">
+                <img width="512" height="512" src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px.png" class="attachment-large size-large wp-image-2021 entered lazyloaded" alt="" data-lazy-srcset="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px.png 512w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px-300x300.png 300w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px-150x150.png 150w" data-lazy-sizes="(max-width: 512px) 100vw, 512px" data-lazy-src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px.png" data-ll-status="loaded" sizes="(max-width: 512px) 100vw, 512px" srcset="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px.png 512w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px-300x300.png 300w, https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/08/imagem_contato_512x512px-150x150.png 150w">
+            </div>
+            <div style="text-align: left;" class="col-xl-6 col-sm-12">
+                <h3 style="color: #ffff;"><b>Quer saber mais sobre<br> nossas soluções?</b></h3>
+                <p class="f1" style="color: white;">Entre em contato e descubra como podemos apoiar a sua jornada.</p>
+                <button type="button" class="btn btn-primary btn-lg b3 my-4"><b>Clique Aqui</b></button>
+            </div>
+        </div> 
+    </div>
+    <!--Info-->
+    <div class="row container mx-auto info">
+        <div class="col-xl-6">
+            <p class="f1">Fique por dentro das principais tendências,<br> notícias e oportunidades da FIEMG para<br> impulsionar as pessoas e os negócios de Minas Gerais.</p>
+        </div>
+        <div class="col-xl-6">
+            <input class="form-control my-3" type="text" placeholder="Nome*" aria-label="Nome*">
+            <input class="form-control my-3" type="text" placeholder="Email*" aria-label="Email*">
+            <p>Ao informar meus dados, eu concordo com o Aviso de Privacidade e Proteção de Dados.</p>
+            <div class="text-center">
+                <button type="button" class="btn btn-primary btn-lg b4 my-4">Quero receber informações</button>
+            </div>          
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <div class="container">
+                <div class="mx-auto py-5 row">
+                    <div class="col-xl-3">
+                        <div>
+                            <p class="m-0">Serviço de Atendimento ao Cidadão:</p>
+                            <h5>4020 9030</h5>
+                        </div>
+                        <div>
+                            <p class="m-0">Ouvidoria:</p>
+                            <h5>0800 882 2525</h5>
+                        </div>
+                        <div>
+                            <p class="m-0">Geral:</p>
+                            <h5>(31) 3263 4200</h5>
+                        </div>
+                        <div>
+                            <p>Horário de funcionamento: Segunda a sexta-feira das 8h às 17h Exceto feriados nacionais e locais.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/senai/mais-senai/">
+                                Conheça o SENAI
+                            </a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/fale-conosco/">Fale Conosco</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://nossaintranet.fiemg.com.br/Account/Login?ReturnUrl=%2F" target="_blank">Intranet</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div>
+                            <a class="link" href="/gestao-2022-2025/">Gestão 2022-2025</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/senai/trabalheconosco/">Trabalhe Conosco</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/wp-content/uploads/media/FIEMG/Estatuto_200623.pdf" target="_blank">Estatuto FIEMG</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.canaldeintegridade.com.br/ouvidoriafiemg/">Ouvidoria</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/senai/integridade/">Integridade</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/senai/privacidade-e-protecao-de-dados/" target="_blank">Aviso de Privacidade e <br> 
+                                Proteção de Dados</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/wp-content/uploads/2023/08/SS000120B-MANUAL-IDENTIDADE-DA-FIEMG_fin.pdf" target="_blank">Manual de Marcas</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/wp-content/uploads/2023/08/politica_de_seguranca_da_informacao_para_terceiros.pdf">Política de Segurança da Informação</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://www.fiemg.com.br/wp-content/uploads/2023/08/politica_de_seguranca_da_informacao_para_terceiros.pdf">Política de Segurança da Informação</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div>
+                            <a class="link" href="https://brumado1.fiemg.com.br/pagamentosrpa/">Pagamento RPA</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://brumado1.fiemg.com.br/pagamentosprotheus/">Pagamento a Empresas</a>
+                        </div>
+                        <div>
+                            <a class="link" href="https://brumado1.fiemg.com.br/pagamentosprotheus/">Pagamento a Empresas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xl-6">
+                        <img src="assets/img/logo.png" alt="logo" width="200px" height="100"px>
+                    </div>
+                    <div class="col-xl-2">
+                        <p style="text-align: left;">Federação das Indústrias do Estado de Minas Gerais
+                            Av. do Contorno, 4456 – Funcionários
+                            Belo Horizonte/MG – CEP: 30110-028
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
